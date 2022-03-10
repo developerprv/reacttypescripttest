@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  // auto import/suggestion shows the correct import from react
+  const [test, setTest] = useState();
   return (
     <div className="App">
       <header className="App-header">
